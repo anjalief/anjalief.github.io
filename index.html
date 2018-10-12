@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Anjalie Field, CMU</title>
+	<meta name="google-site-verification" content="_icP2W3B6y_gFG92Dh-caUWIh_sEnE4tPu8pghzaH2w" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+          $("#main_box").load("./about.html");
+
+	  $("#about").click(function() {
+               $("#main_box").load("./about.html");
+	  });
+
+	  $("#publications").click(function() {
+               $("#main_box").load("./publications.html");
+	  });
+
+	});
+	</script>
+</head>
+
+<body>
+  <div class="banner">
+    <div id="header">
+      <div id="name">
+        Anjalie Field
+      </div>
+      <div id="navigator">
+        <div class="nav_cell"><span class="nav" id="about">about</span></div>
+        <div class="nav_cell"><span class="nav" id="publications">publications</span></div>
+        <div class="nav_cell"><a class="nav" href="Resume.pdf" id="resume">c.v.</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main">
+    <div class="content">
+      <a class="anchor" id="about"></a>
+      <div class="introduction" id="main_box">
+
+    </div>
+  </div>
+
+  <div style="margin-top: 10px; text-align: center; font-size: 14px;">
+  Last Updated: October 11, 2018
+  </div>
+
+</body>
+</html>
