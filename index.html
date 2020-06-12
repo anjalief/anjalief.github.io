@@ -9,14 +9,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
 	$(document).ready(function(){
-          $("#main_box").load("./about.html");
+        $("#main_box").load("./about.html");
+        $("#second_box").load("./publications.html");
 
 	  $("#about").click(function() {
                $("#main_box").load("./about.html");
-	  });
-
-	  $("#publications").click(function() {
-               $("#main_box").load("./publications.html");
 	  });
 
 	});
@@ -31,7 +28,6 @@
       </div>
       <div id="navigator">
         <div class="nav_cell"><span class="nav" id="about">about</span></div>
-        <div class="nav_cell"><span class="nav" id="publications">publications</span></div>
         <div class="nav_cell"><a class="nav" href="Resume.pdf" id="resume">c.v.</a></div>
       </div>
     </div>
@@ -41,8 +37,9 @@
     <div class="content">
       <a class="anchor" id="about"></a>
       <div class="introduction" id="main_box">
+      </div>
+    <div class="introduction"  id="second_box">
 
-    </div>
   </div>
 
 <!--   <div style="margin-top: 10px; text-align: center; font-size: 14px;"> -->

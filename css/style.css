@@ -87,7 +87,16 @@ body {
   padding-bottom: 2px;
   line-height: 1.25;
   margin-left: 10px;
+  olor: Black;
 }
+.workshop {
+  margin-top: 10px;
+  padding-bottom: 2px;
+  line-height: 1.25;
+  margin-left: 10px;
+  color: #bebebe;
+}
+
 .project_img {
   margin-right: 20px;
   float: left;
