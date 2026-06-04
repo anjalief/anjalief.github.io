@@ -87,14 +87,15 @@ body {
   padding-bottom: 2px;
   line-height: 1.25;
   margin-left: 10px;
-  olor: Black;
+  color: Black;
 }
 .workshop {
   margin-top: 10px;
   padding-bottom: 2px;
   line-height: 1.25;
   margin-left: 10px;
-  color: #bebebe;
+  /* color: #bebebe; */
+  color: Black;
 }
 
 .project_img {
